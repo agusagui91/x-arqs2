@@ -1,5 +1,68 @@
 @media screen and (max-width:480px) {
 
+/*tarjetas de obras*/
+
+.titulo_obras{   
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.descripcion_obras {
+    font-size: small;
+}
+
+.etiquetas__obras {
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.card__obras {
+    background-color: #e7e3e2;
+    width: 350px;
+    height: 420px;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    padding: 10px;
+    border: 5px solid black;
+    transition: all 2s;
+}
+
+
+.card__imagen__obra {
+    width:70%;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+} 
+.btn {  
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 15px;
+    font-weight: 500;
+    padding: 2px 8px;
+    background: black;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 10px;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    
+    }
+    
+.btn:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease; 
+    }
+
 /*tarjetas de presentacionm*/
 .nros {
     display: flex;
@@ -43,17 +106,76 @@
 }
 
 
-
-
 @media screen and (min-width:481px) {
-.tarjetas{
-    transition: transition all 2s;
+
+/*tarjetas de obras*/
+
+.titulo_obras{   
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
 
-.trajetas:hover { 
-    width:  10000px;
-    height: 588px;   
+.descripcion_obras {
+    font-size: small;
 }
+
+.etiquetas__obras {
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-left: 250px;
+    margin-bottom: 20px;
+}
+
+.card__obras {
+    background-color: #e7e3e2;
+    width: 350px;
+    height: 420px;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    padding: 10px;
+    border: 5px solid black;
+    transition: all 2s;
+}
+
+
+.card__obras:hover { 
+    width:  450px;
+    height: 520px;
+    
+}
+
+.card__imagen__obra {
+    width:70%;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+} 
+.btn {  
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 15px;
+    font-weight: 500;
+    padding: 2px 8px;
+    background: black;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 10px;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    
+    }
+    
+.btn:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease; 
+    }
 
 /*tarjetas de presentacionm*/
 .nros  {
