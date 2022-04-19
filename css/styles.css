@@ -1,9 +1,57 @@
+@media screen and (max-width:480px) {
+
+/*tarjetas de presentacionm*/
+.nros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height:auto;
+    padding: 7px;
+}
+
+.card2 {
+    background-color: #e7e3e2;
+    width: 200px;
+    height: 200px;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    border: 7px groove black;
+    padding: 10px;
+}
+
+.card__imagen {
+    width:30%;
+    margin-left: 25%;
+    padding: 15px;
+}     
+
+.descripcion2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+}
+
+.titulo2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+
+}
+
+
+
+
+@media screen and (min-width:481px) {
 .tarjetas{
     transition: transition all 2s;
 }
 
 .trajetas:hover { 
-    width:  388px;
+    width:  10000px;
     height: 588px;   
 }
 
@@ -15,12 +63,13 @@
     margin-left: 7%;
     margin-top: 70px;
     margin-bottom: 70px;
-    height:250px ;
+
 }
 
 .card2 {
     background-color: #e7e3e2;
-    width: 10%;
+    width: 200px;
+    height: 200px;
     margin-right: 10%;
     border: 7px groove black;
     padding: 10px;
@@ -44,4 +93,5 @@
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     padding: 10px;
+}
 }
