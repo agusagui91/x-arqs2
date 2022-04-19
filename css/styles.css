@@ -6,3 +6,42 @@
     width:  388px;
     height: 588px;   
 }
+
+/*tarjetas de presentacionm*/
+.nros  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 7%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    height:250px ;
+}
+
+.card2 {
+    background-color: #e7e3e2;
+    width: 10%;
+    margin-right: 10%;
+    border: 7px groove black;
+    padding: 10px;
+}
+
+.card__imagen {
+    width:30%;
+    margin-left: 25%;
+    padding: 15px;
+}     
+
+.descripcion2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+}
+
+.titulo2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
